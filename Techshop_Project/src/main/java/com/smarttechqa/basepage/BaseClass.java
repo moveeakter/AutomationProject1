@@ -26,7 +26,10 @@ public class BaseClass {
 		
 		driver.findElement(By.xpath("//button[@class='btn btn-primary']")).click();
 		System.out.println("The tittle of the application is : "+driver.getTitle()); 	// to verify whether or not you logged in
-		//driver.quit();
+		driver.quit();
+		
+		
+		System.out.println("I did my first GitHub uplaod");
 	}
 	
 	
